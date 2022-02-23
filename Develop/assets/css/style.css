@@ -1,45 +1,43 @@
+/*This means the three styles are applied to the entire page's elements*/
 * {
-    box-sizing: border-box;
-    padding: 0;
+    box-sizing: border-box; /*this will allow our content and benefits section to be sized to fit together*/
+    padding: 0; 
     margin: 0;
 }
-
+/*Applies to the elements visible in the body*/
 body {
     background-color: #d9dcd6;
 }
 
 .header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px; /*all four sides*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /*this means the user's computer will display one of these fonts, depending on the order of availiblity*/
     background-color: #2a607c;
     color: #ffffff;
 }
 
+/*applies to the h1: title element*/
 .header h1 {
-    display: inline-block;
+    display: inline-block; /*it will try to display the h1 elements in a row */
     font-size: 48px;
 }
-
+/*applies to the class called "seo" in the header h1 element*/
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/*applies to all the navigation elements */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
-    float: right;
+    float: right; /* it will let the elements float to the right side */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
-/*.header nav {
-    float: right;
-    margin: 20px 20px;
-    font-size: 17px;
-}*/
 
 .header nav ul {
-    list-style-type: none;
+    list-style-type: none; /* this means no shapes will be represeted for the "bullets" */
 }
 
 .header nav ul li {
@@ -47,15 +45,18 @@ body {
     margin-left: 25px;
 }
 
+/*anchored elements*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*all the paragraph elements*/
 p {
     font-size: 16px;
 }
 
+/*the whole hero section: the big picture attached on the top*/
 .hero {
     height: 800px;
     width: 100%;
@@ -65,6 +66,7 @@ p {
     background-position: center;
 }
 
+/* these made sure the styles of the content section is formatted to be "left right left" */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -93,7 +95,7 @@ p {
 }
 
 .benefit-lead {
-    margin-bottom: 32px;
+    margin-bottom: 32px; /* the space between benefit lead and next element's margin */
     color: #ffffff;
 }
 
@@ -109,7 +111,7 @@ p {
 
 .benefit-lead h3 {
     margin-bottom: 10px;
-    text-align: center;
+    text-align: center; /* centered the text */
 }
 
 .benefit-brand h3 {
@@ -124,7 +126,7 @@ p {
 
 .benefit-lead img {
     display: block;
-    margin: 10px auto;
+    margin: 10px auto; /* This means up and bottom has 10px of space, left and right will be automatically fitted */
     max-width: 150px;
 }
 
@@ -168,7 +170,7 @@ p {
 }
 
 .search-engine-optimization img {
-    max-height: 200px;
+    max-height: 200px; /* defines the maximum height of the img element */
 }
 
 .online-reputation-management img {
