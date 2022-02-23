@@ -31,7 +31,7 @@
 
 ## Link to the deployed application: 
 
-https://hfang821.github.io/code-refactor/
+https://hfang821.github.io/Code-Refactor02/
 
 ---
 
