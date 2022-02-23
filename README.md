@@ -13,16 +13,16 @@
 ### Windows Users:
 
 * Open Gitbash, navigate towards your project location from your root by using "cd ./ project location"
-![Step 1](./Develop/assets/images/Step-1.png)
+![Step 1](./assets/images/Step-1.png)
 
 * Choose a clone option from my "run-buddy" repository (either HTTPS or SSH should work)
-![Step 2](./Develop/assets/images/Step-2.png)
+![Step 2](./assets/images/Step-2.png)
 
 * In Gitbash, type "git clone HTTPS or SSH"
-![Step 3](./Develop/assets/images/Step-3.png)
+![Step 3](./assets/images/Step-3.png)
 
 * Once the clone is successful, open Visual Studio Code and  you are ready to go!
-![Step 4](./Develop/assets/images/Step-4.png)
+![Step 4](./assets/images/Step-4.png)
 
 ### MacOS Users: 
 
