@@ -15,7 +15,7 @@
 * Open Gitbash, navigate towards your project location from your root by using "cd ./ project location"
 ![Step 1](./assets/images/Step-1.png)
 
-* Choose a clone option from my "run-buddy" repository (either HTTPS or SSH should work)
+* Choose a clone option from my "Code-Refactor2" repository (either HTTPS or SSH should work)
 ![Step 2](./assets/images/Step-2.png)
 
 * In Gitbash, type "git clone HTTPS or SSH"
